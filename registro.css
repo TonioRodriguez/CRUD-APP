@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url('./Assests/Images/jumbotron.jpg');
+  }
+
+  .form-regis {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .form-regis h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .control {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  
+  .form-regis p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-regis a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-regis a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-regis .boton {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+
+  @media (max-width: 500px) and (min-width: 300px) {
+
+    #pjmb {
+        font-size: larger;
+    }
+
+    .form-regis {
+        width: 250px;
+        background: #24303c;
+        padding: 30px;
+        margin: auto;
+        margin-top: 100px;
+        border-radius: 4px;
+        font-family: 'calibri';
+        color: white;
+        box-shadow: 7px 13px 37px #000;    
+    }
+
+    .form-regis p {
+        height: auto;
+        line-height: normal;
+    }
+    .form-regis h4 {
+        font-size: 17px;
+        margin-bottom: 10px;
+      }
+      
+      .control {
+        width: 100%;
+        background: #24303c;
+        padding: 5px;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        border: 1px solid #1f53c5;
+        font-family: 'calibri';
+        font-size: 13px;
+        color: white;
+      }
+
+  }
+
+@media (max-width: 300px) and (min-width: 200px) {
+    #pjmb {
+        font-size: larger;
+    }
+
+    .form-regis {
+        width: 180px;
+        background: #24303c;
+        padding: 30px;
+        margin: auto;
+        margin-top: 100px;
+        border-radius: 4px;
+        font-family: 'calibri';
+        color: white;
+        box-shadow: 7px 13px 37px #000;    
+    }
+
+    .form-regis p {
+        height: auto;
+        line-height: normal;
+        font-size: small;
+    }
+    .form-regis h4 {
+        font-size: 12px;
+        margin-bottom: 10px;
+      }
+      
+      .control {
+        width: 100%;
+        background: #24303c;
+        padding: 5px;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        border: 1px solid #1f53c5;
+        font-family: 'calibri';
+        font-size: 8px;
+        color: white;
+      }
+
+      #pjmb {
+        font-size: larger;
+    }
+
+    .form-regis {
+        width: 250px;
+        background: #24303c;
+        padding: 30px;
+        margin: auto;
+        margin-top: 100px;
+        border-radius: 4px;
+        font-family: 'calibri';
+        color: white;
+        box-shadow: 7px 13px 37px #000;    
+    }
+
+    .form-regis p {
+        height: auto;
+        line-height: normal;
+    }
+    .form-regis h4 {
+        font-size: 17px;
+        margin-bottom: 10px;
+      }
+      
+      .control {
+        width: 80%;
+        background: #24303c;
+        padding: 0;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        border: 1px solid #1f53c5;
+        font-family: 'calibri';
+        font-size: 8px;
+        color: white;
+      }
+
+
+}
