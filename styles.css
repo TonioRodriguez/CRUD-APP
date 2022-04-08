@@ -38,19 +38,41 @@
 }
  .card {
     box-shadow: 7px 13px 37px rgb(255, 85, 85);
+    margin-top: 5px;
+    margin-bottom: 5px;
  }
 
 #card {
     display: flex;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 main {
-    padding-top: 3px;
-    padding-bottom: 15px;
+    padding-top: 8px;
+    padding-bottom: 25px;
     background-color: rgb(194, 249, 255);
+}
+#car {
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+#form {
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 70%;
+    border: double rgb(250, 129, 129) 5px;
+    border-radius: 3%;
+    padding: 15px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+footer {
+    margin-top: 20px;
+    padding-top: 10px;
 }
